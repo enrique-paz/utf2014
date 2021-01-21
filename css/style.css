@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen {
+	
+	* {font-family: 'Playfair Display', serif;color:rgb(0,62,126)}
+	
+}
+
+/* BACKGROUND FADER STYLES */
+#cycler{  position: fixed; top: -50%; left: -50%; width: 200%; height: 200%;}
+
+#cycler img{position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; min-width: 50%;min-height: 50%;}
+
+#cycler img.start{z-index:3}
+
+
+/* MAIN STYLES */
+
+table strong {font-family:Helvetica,Arial,san-serif;}
+
+.clear {clear:both;}
+
+.container {
+  width: 1170px;
+  max-width: none !important;
+  padding:0 !important
+}
+
+.container-fluid {width:100% !important;}
+
+.main {z-index:10;position:relative;min-width:1280px !important;}
+
+.topnav {height:184px;background-color:rgba(0,62,126,.7);}
+
+.center {min-height:553px;margin-top:10px;margin-bottom:10px;}
+
+.center h1 {color:#ffffff;text-transform:uppercase;font-size:4em;line-height:.9em;text-shadow:3px 3px 8px #000000;margin-top:15%;margin-left:15%}
+
+.page {background-color:#ffffff;}
+
+.page>.col-xs-4 {text-align:left;}
+
+.hmbtn {margin-left:15%;margin-top:40px;}
+
+.bottomnav {min-height:215px;background-color:rgba(0,62,126,.7);max-width:1170px;margin:0 auto;}
+
+.bottomnav h4 {color:#ffcc00;text-shadow:3px 3px 8px #000000;}
+
+.footer {background-color:#ffcc00;width:100%;font-size:.9em;padding:10px !important;margin-bottom:0 !important;clear:both;z-index:10;position:relative;}
+
+.col-xs-4 {text-align:center;line-height:1em;padding-top:15px;}
+
+.col-xs-12 p {color:#666666 !important;font-size:12px;padding:15px}
+.col-xs-11 p, .well p {color:#333333 !important;font-size:12px;padding:5px}
+
+.well-sm {padding:7px !important}
+
+.col-xs-4 p {color:#ffffff;}
+
+.col-xs-4 a, .col-xs-2 a {color:#ffffff !important;}
+
+.col-xs-4:hover {border:1px solid #ffffff;background: url(../images/selector.png) top center no-repeat;min-height:215px;}
+
+.selected {border:1px solid #ffffff;background: url(../images/selector.png) top center no-repeat;height:215px}
+
+.col-xs-1 {padding-top:15px;width:12.33333% !important}
+
+.col-xs-1 img {box-shadow:3px 3px 10px rgba(0,0,0,.5);}
+
+.col-xs-2 {width:258px !important;text-align:right;padding-left:0 !important}
+
+.col-xs-2 p {color:#ffffff;margin-bottom:35px;}
+
+.topnav .col-xs-7 h2 {color:#ffffff;margin-bottom:5px;}
+
+.col-xs-7 {width:729px !important;}
+
+.col-xs-7 h4 {color:#ffffff;margin-top:0;font-size:20px;margin-bottom:25px;}
+
+.col-xs-8 {padding-top:25px !important;}
+
+.financials {background-color:#d9e5d8;padding:15px;box-shadow:inset 1px 1px 6px #828181;margin-top:25px;}
+
+.col-xs-4 td {padding:5px;font-size:.9em}
+
+/* NAVIGATION STYLES */
+
+.navbar {margin-bottom:0 !important;border:none !important;}
+
+.navbar-nav {margin:0 !important;border:none !important;}
+
+.navbar-default  {color:#ffffff !important;background-color:transparent !important;border:none !important;}
+
+.navbar-default .navbar-nav>li>a {color:#ffffff !important}
+
+.navbar-collapse {padding-left:0 !important;border:none !important;margin-left:0 !important}
+
+.navbar-nav>li {float:none !important;}
+
+.nav>li>a {padding:10px 45px 0 0 !important;}
+
+.navbar-nav>li>a:hover {color:#ffcc00 !important;}
+
+.navbar-default .navbar-nav>.active>a, a.active {color:#ffcc00 !important;background:transparent !important; }
+
+.panel-title>a {color:rgb(0,62,126) !important;}
+
+.panel-default>.panel-heading, .panel-default>.panel-heading, .panel-default {background-color:transparent !important;border-color: transparent !important}
+
+.selector {background:url(../images/expanded.png) no-repeat left;display:block !important;padding-left:15px !important}
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114" !important;    /* adjust as needed, taken from bootstrap.css */
+    float: left !important;        /* adjust as needed */
+	padding-right:10px !important;
+    color:rgb(0,62,126) !important;         /* adjust as needed */
+	font-size:10px !important;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080" !important;    /* adjust as needed, taken from bootstrap.css */
+}
+
+
+
+
+
+.btn {
+  background: #ffd500 !important;
+  background-image: -webkit-linear-gradient(top, #ffd500, #ef991d) !important;
+  background-image: -moz-linear-gradient(top, #ffd500, #ef991d) !important;
+  background-image: -ms-linear-gradient(top, #ffd500, #ef991d) !important;
+  background-image: -o-linear-gradient(top, #ffd500, #ef991d) !important;
+  background-image: linear-gradient(to bottom, #ffd500, #ef991d) !important;
+  text-decoration: none;
+  color:#ffffff !important;
+  text-shadow:1px 1px 3px #000000;
+   -webkit-border-radius: 6 !important;
+  -moz-border-radius: 6 !important;
+  border-radius: 6px !important;
+  border: solid #ef991d 1px !important;
+  font-size:1.3em !important;
+  box-shadow:3px 3px 10px rgba(0,0,0,.8);
+  margin-right:10px;
+}
+
+.btn:hover {
+  background: #d6b42b !important;
+  background-image: -webkit-linear-gradient(top, #ef991d, #ffd500) !important;
+  background-image: -moz-linear-gradient(top, #ef991d, #ffd500) !important;
+  background-image: -ms-linear-gradient(top, #ef991d, #ffd500) !important;
+  background-image: -o-linear-gradient(top, #ef991d, #ffd500) !important;
+  background-image: linear-gradient(to bottom, #ef991d, #ffd500) !important;
+  text-decoration: none;
+    -webkit-border-radius: 6 !important;
+  -moz-border-radius: 6 !important;
+  border-radius: 6px !important;
+  border: solid #ffcc00 1px !important;
+   font-size:1.3em !important;
+    color:#003e7e !important;
+	box-shadow:3px 3px 10px rgba(0,0,0,.8);
+	margin-right:10px;
+}
+
+a.give {
+  background: #76a6c8;
+  background-image: -webkit-linear-gradient(top, #76a6c8, #26578d);
+  background-image: -moz-linear-gradient(top, #76a6c8, #26578d);
+  background-image: -ms-linear-gradient(top, #76a6c8, #26578d);
+  background-image: -o-linear-gradient(top, #76a6c8, #26578d);
+  background-image: linear-gradient(to bottom, #76a6c8, #26578d);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  border: solid #1f628d 1px !important;
+  text-decoration: none;
+  color:#ffcc00 !important;
+  padding:15px 25px;
+  font-size:1.6em;
+  text-shadow:1px 1px 3px #000000;
+}
+
+a.give:hover {
+  background: #26578d;
+  background-image: -webkit-linear-gradient(top, #26578d, #76a6c8);
+  background-image: -moz-linear-gradient(top, #26578d, #76a6c8);
+  background-image: -ms-linear-gradient(top, #26578d, #76a6c8);
+  background-image: -o-linear-gradient(top, #26578d, #76a6c8);
+  background-image: linear-gradient(to bottom, #26578d, #76a6c8);
+  text-decoration: none;
+}
+
